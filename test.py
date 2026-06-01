@@ -29,6 +29,6 @@ plt.title("Scores")
 plt.xlabel("Score")
 plt.ylabel("Frequency")
 plt.grid()
-output_path = Path(__file__).with_name("scores_histogram.png")
+output_path = r"D:\AAAA_airoadmap\week_01\scores_histogram.png"
 plt.savefig(output_path)
 print("saved:", output_path)
