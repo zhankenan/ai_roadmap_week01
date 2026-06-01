@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-scores = [88, 92, 76, 61, 59, 95, 83, 70, 45, 100]
+scores = [88, 92, 76, 61, 59, 95, 83, 70, 45, 100, 120]
 total = 0
 for score in scores:
     total += score  # 已替换为标准的4个英文空格
